@@ -1,5 +1,5 @@
 FROM xemuliam/nifi:1.4.0
-LABEL MAINTAINER AlexsJones <tibbar@freedommail.ch>
+LABEL MAINTAINER DSC sonoilmagopancione@gmail.com
 COPY . .
 RUN chmod +x ./run.sh
 CMD ./run.sh

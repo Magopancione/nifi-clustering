@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nifi
-          image: tibbar/kubernetes-nifi:latest
+          image: sonoilmagopancione/nifi-clustering:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
