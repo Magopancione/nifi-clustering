@@ -21,7 +21,7 @@ spec:
                   - key: "app"
                     operator: In
                     values:
-                    - zk
+                    - nifi
               topologyKey: "kubernetes.io/hostname"
       containers:
         - name: nifi
